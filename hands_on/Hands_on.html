@@ -8,18 +8,37 @@
     
 </head>
 <style>
-  .nav-item1{
+  .nav-item:hover{
     color:#ff0000;
     border-bottom: 2px solid #FD3A13;
+    position: relative;
+
   }
   .nav{
     border-bottom: 1px solid color#dbdbdb;
+  
   }
+  .mins{
+    color:red;
+    font-weight: 600;
+  }
+  
+  .flex {
+    display: flex;
+  }
+  .card img{
+    height:200px;
+  }
+  
+ 
+
 </style>
 <body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
     <ul class="nav">
-  <li class="nav-item1">
-    <a class="nav-link active">Home</a>
+  <li class="nav-item" >
+    <a class="nav-link active" href="">Home</a>
   </li>
   <li class="nav-item">
     <a class="nav-link" href="">World</a>
@@ -46,13 +65,57 @@
     <a class="nav-link" href="">Health</a>
   </li>
 </ul>
+</div>
+</nav>
+<div class="container">
+  <div class="flex">
+      <div>
+          <div class="card" style="width: 18rem;">
+              <img src="../hands_on/images/army.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+              <h4 class="card-title">Syria war: Why the battle for Aleppo matters</h4>
+              <div class="mins"><small>3 mins ago</small></div>
+              </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+              <img src="../hands_on/images/republicans.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+              <h4 class="card-title">Key Republicans sign letter warning against</h4>
+              <div class="mins"><small>3 mins ago</small></div>
+              </div>
+          </div>
+      </div>
+      <div>
+          <div class="card" style="width: 18rem;">
+              <img src="../hands_on/images/obamacare.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+              <h4 class="card-title">Obamacare Appears to Be Making People Healthier</h4>
+              <div class="mins"><small>2 mins ago</small></div>
+              </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+              <img src="../hands_on/images/salad.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+              <h4 class="card-title">'S.N.L' to Lose Two Longtime Cast Members</h4>
+              <div class="mins"><small>2 mins ago</small></div>
+              </div>
+          </div>
+      </div>
 
-<img src="../hands_on/images/army.jpg">
+      <div class="float-right container-fluid">
+          <div class="card" style="width: 18rem;">
+              <img src="../hands_on/images/nfl.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+              <h3 class="card-title">An Alternative Form of Mental Health Care Gains a Foothold</h3>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis consequat mattis ligula, ac iaculis nulla malesuada a. Aenean nec mi in sapien elementum condimentum a at ante.</p>
+              <div class="mins"><small>2h ago</small></div>
+              </div>
+          </div>
+      </div>
+</div>
+</div>
 
-
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+   
   </body>
 </body>
 </html>
