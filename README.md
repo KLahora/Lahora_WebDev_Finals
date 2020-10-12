@@ -4,17 +4,18 @@ What is your COVID-19 web app name?
 
 What is your motivation?
 
--My motivation is the unemployment rate of the philippines which is quite alarming for our economy.
+- My motivation is the unemployment rate of the philippines which is quite alarming for our economy.
 
 Link to your Sitemap, Wireframe, and Video Pitch
--https://drive.google.com/file/d/1e1putUUaYNe6Dwt3QgFhmNMZIE0Gaeoy/view?usp=sharing
 
--https://drive.google.com/drive/folders/1thf3wNjqhtHjKpo6uDpjQgb9s2rtcjNV?usp=sharing
+- https://drive.google.com/file/d/1e1putUUaYNe6Dwt3QgFhmNMZIE0Gaeoy/view?usp=sharing
 
--https://drive.google.com/file/d/1bP8Bu7er15AadN9H5TTyzn8pN9C-y9Ot/view?usp=sharing
+- https://drive.google.com/drive/folders/1thf3wNjqhtHjKpo6uDpjQgb9s2rtcjNV?usp=sharing
+
+- https://drive.google.com/file/d/1bP8Bu7er15AadN9H5TTyzn8pN9C-y9Ot/view?usp=sharing
 
 What are the web tools you used to create your web app?
--Visual Studio Code
+- Visual Studio Code
 
 Discuss what you learned in this (a) COVID-19 web app project and (b) Web Development 1 Course/Subject. 
 
@@ -25,4 +26,4 @@ b.)I've learned in this course that every task that we do must be done with unde
 
 What is something you need to improve on Web Development?
 
--That is certainly my problem solving part in which I need to strengthen more than the rest, I usually found certain problems very long to understand compare to my classmates. I've also have difficulties in javascript and also for the positioning for both html and css.
+- That is certainly my problem solving part in which I need to strengthen more than the rest, I usually found certain problems very long to understand compare to my classmates. I've also have difficulties in javascript and also for the positioning for both html and css.
