@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="css/style.css">
+  
+
+</head>
+<body class="body">
+    <form id="form" onsubmit="return validateForm()">
+
+    
+    <table class="table" >
+         
+        <tr>
+            <td colspan="2" align="center" class="profile">Create Profile</td>
+        </tr>
+        <tr>
+            <td>First Name:</td>
+            <td><input type = "text"  
+                       id="fname" 
+                       name="firstname"
+                       placeholder="Enter first name"
+                       class="inputs"
+                       required/>
+                       <br> <span class="error" id="fname_error">First name cannot be empty</span>
+                       
+           </td>
+            
+        </tr>
+     
+        <tr>
+            <td>Last Name:</td>
+            <td><input type = "text"  
+                       id="lname" 
+                       name="lastname"
+                       placeholder="Enter last name"
+                       class="inputs"
+                       required/>
+                       <br> <span class="error" id="lname_error">Last name cannot be empty</span>
+           </td>
+        </tr>
+        <tr>
+            <td>Password:</td>
+            <td><input type = "password" 
+                       id="pword" 
+                       name="password"
+                       placeholder="Enter password"
+                       class="inputs"
+                       required onkeydown="validatePassword()"
+                       />
+                       <br> <span class="error" id="pass_error"></span>
+           </td>
+        </tr>
+        <tr>
+            <td>Email:</td>
+            <td><input type = "email" 
+                       id="eml" 
+                       name="email"
+                       placeholder="Enter email"
+                       class="inputs"
+                       required onkeydown="validateEmail()"
+                       />
+                       <br> <span class="error" id="email_error"></span>
+           </td>
+        </tr>
+        
+        <tr>
+            <td> Gender:</td>
+            <td>
+               <input type="radio"
+                       id="male"
+                       name="gender"
+                       selected="selected"/>
+               <label for="loginType">Male</label>
+
+               <input type="radio"
+                       id="female"
+                       name="gender"
+ 
+                       selected="selected"/>
+               <label for="loginType">Female</label>
+               <br> <span class="error" id="gen_error">Please select gender</span>
+            </td>
+           
+        </tr>
+
+        
+
+        
+        <tr>
+            <td colspan="2"> 
+                <input type="checkbox" 
+                       id="chbx"
+                       name="checkbox"/>
+                <label for="checkbox1"> I accept the Terms and Conditions</label>
+                <br> <span class="error" id="terms_error">Read and check the terms and conditions</span>
+            </td>
+             
+        </tr>
+
+        <tr>
+            <td colspan="2" align="center">
+               <button type="submit" 
+               class="button">Submit</button>
+                      
+               
+            </td>
+       </tr>
+ </table>
+</form>
+
+
+
+
+
+</body>
+<script src="js/script.js"></script>
+
+</html>
