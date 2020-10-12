@@ -1,0 +1,12 @@
+.post-number{
+    color: gray;
+}
+.tab-content{
+    width: 700px;
+    position: relative;
+    align-items: center;
+    left: 580px;
+}
+.body{
+    background-color: grey;
+}
