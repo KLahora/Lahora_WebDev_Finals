@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+  
+
+</head>
+<body class="body">
+    <form id="form" onsubmit="return validateForm()">
+
+    
+    <table class="table" >
+         
+        <tr>
+            <td colspan="2" align="center" class="profile">Login</td>
+        </tr>
+        <tr>
+            <td>Email:</td>
+            <td><input type = "email" 
+                       id="eml" 
+                       name="email"
+                       placeholder="Enter email"
+                       class="inputs"
+                       required onkeydown="validateEmail()"
+                       />
+                       <br> <span class="error" id="email_error"></span>
+           </td>
+        </tr>
+       
+        <tr>
+            <td>Password:</td>
+            <td><input type = "password" 
+                       id="pword" 
+                       name="password"
+                       placeholder="Enter password"
+                       class="inputs"
+                       required onkeydown="validatePassword()"
+                       />
+                       <br> <span class="error" id="pass_error"></span>
+           </td>
+        </tr>
+       
+
+        <tr>
+            <td colspan="2" align="center">
+               <button type="submit" 
+               class="button">Submit</button>
+                      
+               
+            </td>
+       </tr>
+ </table>
+</form>
+
+
+
+
+
+</body>
+<script src="script.js"></script>
+
+</html>

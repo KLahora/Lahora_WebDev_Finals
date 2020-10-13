@@ -1,0 +1,40 @@
+.body{
+    background-color: black;
+    font-size: 50px;
+    font-family: Berlin Sans FB;
+}
+
+.table{
+   
+    color:yellow;
+    top:30px;
+    position: relative;
+    left:600px;
+    width: 900px;
+    height: 900px;
+    align-self: center;
+  
+}
+.inputs{
+   height: 100px;
+   background-color: black;
+   color: white;
+   font-size: 50px;
+}
+.button{
+    height: 100px;
+    width: 300px;
+    background-color: gray;
+    font-size: 50px;
+    font-family: Berlin Sans FB;
+    color: yellow;
+}
+.profile{
+    font-size: 60px;
+}
+.error{
+    color: red;
+    font-size: 20px;
+    margin-left: 4px;
+    display: none;
+}

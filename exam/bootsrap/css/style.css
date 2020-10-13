@@ -1,0 +1,38 @@
+.body{
+    background-color: gray
+}
+.nav-item:hover{
+    color:yellow;
+    border-bottom: 2px solid yellow;
+    position: relative;
+
+  }
+.nav{
+    border-bottom: 1px solid color#dbdbdb;
+    font-family: arial;
+    color:white
+}
+.navbar{
+    background-color: black;
+}
+.nav-link{
+    color: white;
+    font-size: 25px;
+}
+.nav-link:hover{
+    color: white;
+}
+.mins{
+    color:red;
+    font-weight: 600;
+  }
+
+
+.card img{
+    height:200px;
+  }
+
+.table{
+    width: 500px;
+    position: relative;
+}
